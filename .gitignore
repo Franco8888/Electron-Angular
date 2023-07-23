@@ -1,5 +1,19 @@
-# Object file
-*.o
+# compiled output
+/dist
+/tmp
+/out-tsc
 
-# Ada Library Information
-*.ali
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
