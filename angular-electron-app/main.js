@@ -7,7 +7,7 @@ function createWindow () {
   win = new BrowserWindow({
     width: 600, 
     height: 670,
-    icon: `${__dirname}/dist/angular-electron-appassets/logo.png`
+    icon: `${__dirname}/dist/angular-electron-app/assets/logo.png`
   })
 
   win.loadURL(`${__dirname}/dist/angular-electron-app/index.html`)
