@@ -7,8 +7,6 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "electron": "electron .",
     "electron-build": "ng build --configuration production && npm run electron .",
     "electron-publish-win": "electron-packager . my-electron-tutorial-app --overwrite --asar --platform=win32 --arch=x64 --icon=src/assets/logo-black.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\""
   },
